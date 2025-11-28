@@ -1,3 +1,4 @@
+![스크린샷](screenshot.png)
 # Hyperliquid Builder Fee Approve (로컬 실행 가이드)
 
 이 페이지는 Hyperliquid에서 특정 builder 코드(주소)에 대해 "최대 수수료(%)"를 승인(approve)하는 간단한 도구입니다.  
