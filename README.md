@@ -27,7 +27,7 @@ python3 -m http.server 8000
 - Windows (PowerShell):
 ```powershell
 cd dist
-py -m http.server 8000
+python -m http.server 8000
 ```
 
 2) 브라우저에서 아래 주소로 접속합니다.
