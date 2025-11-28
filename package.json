@@ -1,0 +1,21 @@
+{
+  "name": "hl_web_test",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "build:force": "sh -c \"tsc || echo '[WARN] type errors ignored'\" && vite build",
+    "build:force:win": "cmd /c \"tsc || echo [WARN] type errors ignored\" & vite build"
+  },
+  "devDependencies": {
+    "typescript": "~5.9.3",
+    "vite": "^7.2.4"
+  },
+  "dependencies": {
+    "@nktkas/hyperliquid": "^0.27.1",
+    "viem": "^2.40.3"
+  }
+}
